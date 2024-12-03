@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="wrap">
+        <h1>Всего <span class="green">5 шагов</span> до готовой шумоизоляции</h1>
+        <div class="steps">
+            <div class="step">
+                <div class="number">01</div>
+                <h4>Оставьте заявку</h4>
+                <div class="step_text">Оставляете заявку на сайте, наш менеджер уточняет поставленные задачи и консультирует по технологиям.</div>
+            </div>
+            <div class="step">
+                <div class="number">02</div>
+                <h4>Выезд на объект</h4>
+                <div class="step_text">Предварительно рассчитаваем смету (при наличии дизайн-проекта или обмерочного плана). Выезжаем на замер.</div>
+            </div>
+            <div class="step">
+                <div class="number">03</div>
+                <h4>Заключение договора</h4>
+                <div class="step_text">Подписываем договор, мы фиксируем сроки и стоимость работ. Вносите предоплату за материалы и часть работ.</div>
+            </div>
+            <div class="step">
+                <div class="number">04</div>
+                <h4>Шумоизоляционные работы</h4>
+                <div class="step_text">Доставляем материалы на объект и в соответствии с графиком выполняем работы.</div>
+            </div>
+            <div class="step">
+                <div class="number">05</div>
+                <h4>Объект готов</h4>
+                <div class="step_text">Принимаете финальные результаты и продолжаете следующий этап ремонта.</div>
+            </div>
+            <div class="step step_none">
+                <div class="step_img">
+                    <img src="step6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <div class="form_img">
+                <img src="form.jpg" alt="">
+            </div>
+            <div class="form_request">
+                <p class="measuring">Замер объекта</p>
+                <h2><span class="green">Запишитесь</span> на замер</h2>
+                <p class="form_text">Для оперативности оценки объёма и стоимости работы прикрепите ссылку на Ваш дизайн-проект (при наличии)</p>
+                <form action="">
+                    <input type="text" placeholder="Имя" maxlength="25"required>
+                    <input type="tel" id="phone" placeholder="+7 (999) 999-99-99" required>
+                    <input type="url" placeholder="Ссылка на дизайн-проект...">
+                    <div class="div_check">
+                        <input type="checkbox" id="check" required>
+                        <label for="check">Нажимая на кнопку, вы соглашаетесь с <a href="#">Политикой конфиденциальности</a>.</label>
+                    </div>
+                    <button class="call_measurer">Вызвать замерщика</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
