@@ -101,7 +101,7 @@ h1 {
 }
 
 .green {
-    color: rgb(0, 130, 23);
+    color: #3C4A54;
 }
 
 .steps {
@@ -122,7 +122,7 @@ h1 {
 
 .step::before {
     content: "";
-    background-color: rgb(0, 130, 23);
+    background-color: #3C4A54;
     height: 2px;
     width: 80%;
     position: absolute;
@@ -132,7 +132,7 @@ h1 {
 }
 
 .number {
-    border: 1px rgb(0, 130, 23) solid;
+    border: 1px #3C4A54 solid;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -200,7 +200,7 @@ h1 {
 
 .measuring {
     padding: 5px 10px;
-    border: 1px rgb(0, 130, 23) solid;
+    border: 1px #3C4A54 solid;
     border-radius: 30px;
     margin-bottom: 20px;
     width: 170px;
@@ -248,7 +248,7 @@ form input {
 }
 
 .call_measurer {
-    background-color: rgb(0, 130, 23);
+    background-color: #3C4A54;
     margin-top: 25px;
     padding: 20px;
     color: #fff;
@@ -257,7 +257,7 @@ form input {
 }
 
 .call_measurer:hover {
-    background-color: rgb(14, 117, 33);
+    background-color: #32373b;
 }
 
 @media (max-width: 1200px) {
